@@ -20,12 +20,14 @@ body{
 .card-1{
     background-color: rgb(183, 232, 84);
     border: 2px solid black;
-    width: 25%;
-    min-height: 350px;
+    width: 20%;
+    min-height: 400px;
     position: relative;
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px black;
 }
 
 .card-content{
@@ -35,4 +37,42 @@ body{
     top: 50%;
     transform: translateY(-50%);
     padding: 10%;
+}
+
+.card-heading{
+    text-align: center;
+}
+
+.card-text{
+    line-height: 20px;
+
+}
+
+.text-centre{
+    text-align: center;
+}
+
+
+
+.card-footer>button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(235, 235, 74);
+    padding: 10px;
+    border-radius: 100px;
+    border: 1px solid black;
+}
+
+.badge{
+    width: 70px;
+    height: 60px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    right: 0;
+    transform: translate(50%,-50%);
+    border-radius: 50%;
+    padding: 8PX;
+    bottom: 80%;
 }
