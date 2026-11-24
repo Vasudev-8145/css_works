@@ -1,4 +1,11 @@
 
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .flex-container{
     width: 75%;
     height: 400px;
@@ -10,10 +17,11 @@
     margin-right: auto;
     /* justify-content: space-between; */
     /* justify-content: space-around; */
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
     /* justify-content: start; */
     /* justify-content: end; */
-    /* justify-content: center; */
+    justify-content: center;
+    align-items: center;
 }
 
 .flex-items{
