@@ -155,7 +155,8 @@ body{
 
 .education-content{
     line-height: 2%;
-    font-size: 15px;
+    font-size: 14px;
+    transform: translateY(-30%);
 }
 
 .education-content>h5{
@@ -179,7 +180,7 @@ body{
     background-color: #3c3050;
     color: white;
     height: 25px;
-    transform: translateY(-40px);
+    transform: translateY(-55px);
 }
 
 .work-header>h5{
@@ -190,8 +191,8 @@ body{
 .work-content{
     /* background-color: azure; */
     line-height: 5px;
-    transform: translateY(-40px);
-    font-size: 15px;
+    transform: translateY(-60px);
+    font-size: 14px;
 }
 
 /* work experience setup */
@@ -208,7 +209,7 @@ body{
     background-color: #3c3050;
     color: white;
     height: 25px;
-    transform: translateY(-55%);    
+    transform: translateY(-35px);    
 }
 
 .certificates-header>h5{
@@ -218,9 +219,9 @@ body{
 
 .certificates-content-top{
     /* background-color: white; */
-    transform: translateY(-35%);
+    transform: translateY(-35px);
     line-height: 3%;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .certificates-content-top>h5{
@@ -234,9 +235,9 @@ body{
 
 .certificates-content-bottom{
     /* background-color: aquamarine; */
-    transform: translateY(-35%);
+    transform: translateY(-30px);
     line-height: 3%;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .certificates-content-bottom>h5{

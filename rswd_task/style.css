@@ -1,0 +1,24 @@
+
+.grid-container{
+    background-color: burlywood;
+    width: 75%;
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 10px;
+    grid-gap: 10px;
+}
+
+.grid-items{
+    background-color: brown;
+    border: 1px solid black;
+}
+
+@media (max-width:300px) {
+
+    .grid-container{
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+    
+}
